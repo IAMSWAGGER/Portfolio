@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ <meta charset="UTF-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <title>Your Portfolio</title>
+ <style>
+ body {
+ font-family: Arial, sans-serif;
+ margin: 0;
+ padding: 0;
+ background-color: #505050;
+ color: #0d0d0d;
+ }
+ header {
+ background-color: #868585;
+ color: #fff;
+ padding: 20px;
+ text-align: center;
+ }
+ header h1 {
+ margin: 0;
+ }
+ DIV {
+ background-color: #dce1f4;
+ }
+ nav {
+ 
+ text-align: center;
+ padding: 20px;
+ }
+ nav a {
+ color: rgb(250, 246, 246);
+ margin: 0 15px;
+ text-decoration: none;
+ font-size: 18px; 
+ }
+ nav a:hover {
+ text-decoration: underline;
+ background-color: rgb(63, 44, 50);
+ 
+ }
+ .container {
+ max-width: 1200px;
+ margin: 0 auto;
+ padding: 20px;
+ }
+ section {
+ margin-bottom: 40px;
+ }
+ section h2 {
+ color: #080000f6;
+ }
+ .projects, .skills {
+ display: grid;
+ grid-template-columns: repeat(2, 1fr);
+ color: rgb(8, 7, 0);
+ gap: 10px;
+ }
+ .projects div, .skills div {
+ background-color: #8e9cac;
+ padding: 20px;
+ border-radius: 8px;
+ box-shadow: 0 2px 4px rgba(209, 203, 203, 0.1);
+ }
+ .projects img {
+ width: 100%;
+ height: auto;
+ border-radius: 8px;
+ }
+ footer {
+ text-align: center;
+ padding: 20px;
+ background-color: #333;
+ color: rgb(203, 203, 229);
+ }
+ </style>
+</head>
+<body> 
+ <header>
+ <img src="my img.jpg" alt="vivek" height="150" width="150" style="border-radius: 0%;">
+ <h1><pre><B>AGHAO VIVEK SUBHASH</B></pre></h1>
+ <p><PRE><H4>YOUTUBE CREATOR, GYMBOY, SOCIAL MEDIA MANAGER, CINEMATOGRAPHER</H4></PRE></p>
+ </header>
+ <HR>
+ <DIV style="background-color: rgb(27, 21, 30);">
+ <nav>
+ <a href="#about"><B>ABOUT ME</B></a>
+ <a href="#skills"><B>SKILLS</B></a>
+ <a href="#projects"><B>PROJECTS</B></a>
+ <a href="#contact"><B>CONTACT</B></a>
+ </nav>
+ </DIV>
+ <HR>
+ <div class="container">
+ <section id="about">
+ <h2>ABOUT ME</h2>
+ <p>Hello! My name is VIVEK, and I am currently pursuing a B.Tech degree at zeal collage pune. 
+Throughout my academic journey, I have consistently strived for excellence. I secured 98% in my 10th 
+grade, followed by 72% in my 12th grade. After that, I achieved an 87 percentile in my entrance exam.
+ </p>
+ <p>I have always had a passion for technology, which led me to explore programming. I completed 
+a course in Python and have since worked on numerous projects, honing my skills. Currently, I am actively 
+participating in hackathons, which further fuels my enthusiasm for problem-solving and innovation.</p>
+<p>
+    I am also uploading photos on google map through which i am reached thousands of people in last 3 yrs and also i have my own youtube channel 
+    in which i am going to share my knowledge about gym and marketing and businesses and much more.... in such a way that many people want to get their business start
+    while i am also runing a group startup called SAAU MEDIA with my childhood friend ... through which we are going to reach thousands of people and promote their brand on social media
+</p>
+ </section>
+ <section id="skills">
+ <h2>SKILLS</h2>
+ <div class="skills">
+    <div>
+        <h3>DRAWING</h3>
+        <p>I have A+ grade in 14 exams including ELEMENTRY AND INTERMEDIATE DRAWING EXAM cunducted all over maharastra</p>
+        </div>
+        <div>
+            <h3>CREATIVE THINGS</h3>
+            <p>I am instusted in crating and exploring new thing due to which i developed my self in various field</p>
+            </div>
+ <div>
+ <h3>Skill 3</h3>
+ <p>"I am a fast learner when it comes to technology, and I emphasize creativity in solving 
+problems through coding. My reverse engineering skills are also strong.".</p>
+ </div>
+ <div>
+ <h3>Skill 4</h3>
+ <p>"I am skilled at searching for anything using ChatGPT, and I make efficient use of it to 
+increase my productivity and speed."</p>
+ </div>
+ </div>
+ </section>
+ <section id="projects">
+ <h2>PROJECTS</h2>
+ <div class="projects">
+ <div>
+ <img src="swagstar logo.jpg" alt="TEAM SWAGSTAR">
+ <h3> SWAGSTAR</h3>
+ <p>It is nothing but my own brand which is i am going to run in future in which my team is woring from pan INDIA also we are going to make huge project in upcoming years</p>
+ <li>VISIT PROJECT: <a href="https://youtu.be/I-Nbm2HF3GE?si=G3s6C5udDCHsgyGx">SEE INTRO</a></li>
+</div>
+ <div>
+ <img src="saaumedia.co_14031011_002130946.jpg" alt="SAAU MEDIA">
+ <h3>SAAU MEDIA</h3>
+ <p>In this startup we are going to do marketing and branding of local as well as internation companies. and make people easy to grow their businesses</p>
+ <li>Instagram: <a href="https://www.instagram.com/saaumedia.co?igsh=NnNzbnRyazdwaXU4">INSTAGRAM PROFILE</a></li>
+ </div>
+ </div>
+ </section>
+ <section id="contact">
+ <h2>CONTACTS</h2>
+ <p>If you'd like to get in touch, feel free to reach out to me through the following:</p>
+ <ul>
+ <li>Email: vivekaghao298@gmail.com</li>
+ <li>Phone: 9423088215</li>
+ <li>LinkedIn: <a href="https://www.linkedin.com/in/vivek-aghao-a36894332?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app">linkedin.com</a></li>
+ <li>Youtube: <a href="youtube.com/@_SWAGSTAR">VISIT CHANNEL</a></li>
+ <li>Instagram: <a href="https://www.instagram.com/aghao_vivek/profilecard/?igsh=c21xNHVvZmZwZ3lj">INSTAGRAM PROFILE</a></li>
+ </ul>
+ </section>
+ </div>
+ <footer>
+ <p>&copy; BY TEAM SWAGSTAR</p>
+ </footer>
+</body>
+</html>
